@@ -1,7 +1,8 @@
 name: Latest blog post workflow
 on:
-  repository_dispatch:
-    types: [contentful.deploy]
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 * * * *'
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
