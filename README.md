@@ -41,6 +41,11 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [KNN &lpar;K Nearest Neighbors&rpar;  python](https://haiconmeo.info/blog/knn-python)
+- [Các bước thông thường để giải quyết bài toán machine learning](https://haiconmeo.info/blog/Các bước thông thường để giải quyết bài toán machine learning)
+- [Khai thác lỗi SVG Expansion](https://haiconmeo.info/blog/SVG-Expansion-la-gi)
+- [Lab 4: SQL injection UNION attack, finding a column containing text](https://haiconmeo.info/blog/SQL injection UNION attack, finding a column containing text)
+- [Lab 3: SQL injection UNION attack, determining the number of columns returned by the query PRACTITIONER](https://haiconmeo.info/blog/SQL injection UNION attack)
 <!-- BLOG-POST-LIST:END -->
 
 
