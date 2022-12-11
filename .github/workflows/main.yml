@@ -1,0 +1,16 @@
+name: Latest stack oveflow activity
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 * * * *'
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest activity from StackOverflow
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "STACKOVERFLOW"
+          feed_list: "https://haiconmeo.info/blog"
+          template: "<h2>$title</h2>"
