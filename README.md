@@ -1,3 +1,16 @@
+<div id="header" align="center">
+  <img src="https://i.pinimg.com/originals/e1/f3/41/e1f3413bf5036045713341394f617225.gif" width="100"/>
+  <div id="badges">
+  <a href="https://www.linkedin.com/in/haiconmeo">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://www.facebook.com/Fateri45">
+    <img src="https://img.shields.io/badge/Facebook-red?style=for-the-badge&logo=facebook&logoColor=white" alt="Youtube Badge"/>
+  </a>
+
+</div>
+</div>
+
 <h1 align="center">Hi 👋, I'm Hoang Huu Manh</h1>
 <h3 align="center">A passionate backend developer from Danang</h3>
 
@@ -22,3 +35,10 @@
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/haiconmeo"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="haiconmeo" /></a></p><br><br>
+### :fire: My Stats :
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=haiconmeo&theme=dark&background=000000)](https://git.io/streak-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=haiconmeo&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
+
