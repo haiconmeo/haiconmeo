@@ -1,16 +1,17 @@
-name: Latest stack oveflow activity
+name: Latest blog post workflow
 on:
-  workflow_dispatch:
-  schedule:
-    - cron:  '0 * * * *'
+  repository_dispatch:
+    types: [contentful.deploy]
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest activity from StackOverflow
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - uses: jakejarvis/wait-action@master
         with:
-          comment_tag_name: "STACKOVERFLOW"
-          feed_list: "https://haiconmeo.info/blog"
-          template: "<h2>$title</h2>"
+          time: "5m"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://haiconmeo.info/rss.xml"
+          commit_message: "Updated README with latest blog posts"
