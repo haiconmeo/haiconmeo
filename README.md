@@ -41,11 +41,11 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Kiến thức backend cơ bản](https://haiconmeo.info/blog/kien-thuc-backend-co-ban)
 - [KNN &lpar;K Nearest Neighbors&rpar;  python](https://haiconmeo.info/blog/knn-python)
 - [Các bước thông thường để giải quyết bài toán machine learning](https://haiconmeo.info/blog/C%C3%A1c%20b%C6%B0%E1%BB%9Bc%20th%C3%B4ng%20th%C6%B0%E1%BB%9Dng%20%C4%91%E1%BB%83%20gi%E1%BA%A3i%20quy%E1%BA%BFt%20b%C3%A0i%20to%C3%A1n%20machine%20learning)
 - [Khai thác lỗi SVG Expansion](https://haiconmeo.info/blog/SVG-Expansion-la-gi)
 - [Lab 4: SQL injection UNION attack, finding a column containing text](https://haiconmeo.info/blog/SQL%20injection%20UNION%20attack,%20finding%20a%20column%20containing%20text)
-- [Lab 3: SQL injection UNION attack, determining the number of columns returned by the query PRACTITIONER](https://haiconmeo.info/blog/SQL%20injection%20UNION%20attack)
 <!-- BLOG-POST-LIST:END -->
 
 
